@@ -10,7 +10,7 @@ const TopNavbar = () => {
   return (
     <nav className="relative z-50 text-white">
       {/* ── Main bar ── */}
-      <div className="flex items-center justify-between py-4 px-6 md:px-10 lg:px-16">
+      <div className="flex items-center justify-between py-4 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         {/* Logo */}
         <p className="text-2xl cursor-pointer tracking-wide select-none">
           BOOST<span className="font-bold">AI</span>
@@ -66,7 +66,7 @@ const TopNavbar = () => {
 
       {/* ── Mobile dropdown ── sits OUTSIDE the flex row so it drops below ── */}
       {menuOpen && (
-        <div className="md:hidden backdrop-blur-2xl px-6 pt-4 pb-6 flex flex-col gap-4">
+        <div className="md:hidden backdrop-blur-2xl px-4 sm:px-6 lg:px-8 pt-4 pb-6 flex flex-col gap-4 max-w-7xl mx-auto w-full">
           {navLinks.map((link) => (
             <a
               key={link}

@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="text-xl">
             BOOST<span className="font-bold">AI</span>
           </p>
-          <p className="text-sm text-gray-400 max-w-[200px]">
+          <p className="text-sm text-gray-400 max-w-50">
             Intelligent automation for faster, smarter work.
           </p>
           <button className="border rounded-3xl py-2.5 px-5 text-sm hover:bg-white/10 transition-colors duration-200 cursor-pointer">

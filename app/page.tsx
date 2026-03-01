@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       {/* Header */}
-      <header className="w-full pt-5">
+      <header className="w-full pt-0 md:pt-4">
         <TopNavbar />
       </header>
 
