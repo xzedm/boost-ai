@@ -53,7 +53,7 @@ const MainSection = () => {
         className="w-full mt-4 sm:mt-6 -mb-15 sm:-mb-25 lg:-mb-35"
       >
         <Image
-          src="/image.png"
+          src="/image.webp"
           alt="BoostAI platform preview — AI-powered workflow automation dashboard"
           width={1605}
           height={619}
